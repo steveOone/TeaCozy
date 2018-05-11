@@ -7,61 +7,85 @@
   </head>
   <body>
 
-    <header>
+    <header class="flex">
       <div class="logo">
         <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-tea-cozy-logo.png" alt="Logo">
       </div>
       <nav>
-        <span><a href="mission">Mission</a></span>
-        <span><a href="featured">Featured Tea</a></span>
-        <span><a href="locations">Locations</a></span>
+        <span><a href="#mission">Mission</a></span>
+        <span><a href="#featured">Featured Tea</a></span>
+        <span><a href="#locations">Locations</a></span>
       </nav>
     </header>
 
-    <div class="mission">
-      <h2>Our Mission</h2>
-      <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
-    </div>
+    <div class="main">
+     <div id="mission" class="flex">
+       <div class="content">
+         <h2>Our Mission</h2>
+         <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+       </div>
+     </div>
 
-    <div class="featured">
+     <div id="featured">
       <h2>Tea of the Month</h2>
       <h4>What's Steeping at The Tea Cozy?</h4>
-      <div class="teas">
-        <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg" alt="Berry Tea">
-        <span>Fall Berry Blitz Tea</span>
-        <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg" alt="Tea Box">
-        <span>Spiced Rum Tea</span>
-        <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg" alt="Donut">
-        <span>Seasonal Donuts</span>
-        <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg" alt="Facny Tea">
-        <span>Myrtle Ave Tea</span>
-        <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg" alt="Bizarre Tea">
-        <span>Bedford Bizarre Tea</span>
+      <div class="flex tea">
+        <div class="tea">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg" alt="Berry Tea">
+          <span>Fall Berry Blitz Tea</span>
+        </div>
+        <div class="tea">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg" alt="Tea Box">
+          <span>Spiced Rum Tea</span>
+        </div>
+        <div class="tea">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg" alt="Donut">
+          <span>Seasonal Donuts</span>
+        </div>
+        <div class="tea">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg" alt="Facny Tea">
+          <span>Myrtle Ave Tea</span>
+        </div>
+        <div class="tea">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg" alt="Bizarre Tea">
+          <span>Bedford Bizarre Tea</span>
+        </div>
+      </div>
+     </div>
+
+    <div id="locations">
+      <h2>Locations</h2>
+      <div class="flex location">
+        <div class="location">
+          <h3>Downtown</h3>
+          <p>384 West 4th St</p>
+          <p>Suite 108</p>
+          <p>Portland, Maine</p>
+        </div>
+        <div class="location">
+          <h3>East Bayside</h3>
+          <p>3433 Phisherman's Avenue</p>
+          <p>(Northwest Corner)</p>
+          <p>Portland, Maine</p>
+        </div>
+        <div class="location">
+          <h3>Oakdale</h3>
+          <p>515 Crescent Avenue</p>
+          <p>Second Floor</p>
+          <p>Portland, Maine</p>
+        </div>
+       </div>
       </div>
     </div>
 
-    <div class="locations">
-      <div class="box">
-        <h3>Downtown</h3>
-        <p>384 West 4th St Suite 108 Portland, Maine</p>
-      </div>
-      <div class="box">
-        <h3>East Bayside</h3>
-        <p>3433 Phisherman's Avenue (Northwest Corner) Portland, Maine</p>
-      </div>
-      <div class="box">
-        <h3>Oakdale</h3>
-        <p>515 Crescent Avenue Second Floor Portland, Maine</p>
-      </div>
-    </div>
-
-    <footer>
+    <div class="contact">
       <h2>The Tea Cozy</h2>
       <h5>contact@theteacozy.com</h5>
       <p>917-555-8904</p>
-      <div class="copy">
+    </div>
+
+    <footer>
         <span>&copy; copyright The Tea Cozy 2017</span>
-      </div>
     </footer>
 
   </body>
