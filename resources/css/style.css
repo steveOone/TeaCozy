@@ -15,6 +15,9 @@ header {
   z-index: 1;
   background-color: black;
 }
+a {
+  color: seashell;
+}
 .flex {
   display: flex;
   justify-content: center;
